@@ -10,7 +10,7 @@
 
 #### Deployment Instructions
 - Sign into the Azure CLI
-- `terraform Init`
+- `terraform init`
 - `terraform apply --auto-approve`
 
 #### Requirements
