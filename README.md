@@ -9,26 +9,22 @@
 - https://docs.microsoft.com/en-us/azure/aks/ingress-internal-ip
 
 #### Deployment Instructions
-- Sign into Azure CLI
-- Terraform Init
-- Terraform apply --auto-approve
+- Sign into the Azure CLI
+- `terraform Init`
+- `terraform apply --auto-approve`
 
 #### Requirements
 
 | Name | Version |
 |------|---------|
 | terraform | >= 0.14 |
-| azurerm | >=2.50.0 |
+| azure-cli | >=2.20.0 |
 
 #### Providers
 
 | Name | Version |
 |------|---------|
 | azurerm | >=2.50.0 |
-
-#### Modules
-
-No Modules.
 
 #### Resources
 
