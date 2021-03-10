@@ -13,24 +13,24 @@
 - Terraform Init
 - Terraform apply --auto-approve
 
-## Requirements
+#### Requirements
 
 | Name | Version |
 |------|---------|
 | terraform | >= 0.14 |
 | azurerm | >=2.50.0 |
 
-## Providers
+#### Providers
 
 | Name | Version |
 |------|---------|
 | azurerm | >=2.50.0 |
 
-## Modules
+#### Modules
 
 No Modules.
 
-## Resources
+#### Resources
 
 | Name |
 |------|
@@ -46,10 +46,10 @@ No Modules.
 | [azurerm_user_assigned_identity](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/user_assigned_identity) |
 | [azurerm_virtual_network](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network) |
 
-## Inputs
+#### Inputs
 
 No input.
 
-## Outputs
+#### Outputs
 
 No output.
