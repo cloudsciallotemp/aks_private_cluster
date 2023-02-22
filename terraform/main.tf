@@ -147,10 +147,11 @@ resource "azurerm_kubernetes_cluster" "base" {
     vnet_subnet_id = azurerm_subnet.aks.id
   }
 
+
   identity {
-    type                      = "UserAssigned"
-    user_assigned_identity_id = azurerm_user_assigned_identity.base.id
+    type = "SystemAssigned"
   }
+  
   depends_on = [
       azurerm_route.base,
       azurerm_role_assignment.base
