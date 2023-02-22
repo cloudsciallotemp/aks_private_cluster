@@ -115,6 +115,8 @@ resource "azurerm_firewall" "base" {
   name                = "fw-${local.name_prefix}-${local.environment}-${local.region}"
   location            = azurerm_resource_group.base.location
   resource_group_name = azurerm_resource_group.base.name
+  sku_name            = "AZFW_VNet"
+  sku_tier            = "Standard"
 
   ip_configuration {
     name                 = "ip-${local.name_prefix}-${local.environment}-${local.region}"
